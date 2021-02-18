@@ -1,0 +1,14 @@
+{
+  "name": "hue-sunset",
+  "version": "1.0.0",
+  "description": "experimenting with phillips hue api",
+  "main": "main.js",
+  "author": "Eric Wilson",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1",
+    "suncalc": "^1.8.0"
+  }
+}
