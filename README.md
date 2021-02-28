@@ -12,6 +12,7 @@ It doesn't do much currently. In `main.js`, there are two separate functions, `m
 - `$ node main.js`
 
 ## Environment Variables
+These environment variables go in a `.env` file in the root directory. `.example_env` is also there if you need more detail.
 ```
 BRIDGE_IP=<IP Address of Hue Bridge (see 'Discovering Bridge IP')>
 BRIDGE_USERNAME=<Username assigned by hue bridge>
