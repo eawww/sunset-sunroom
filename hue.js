@@ -1,3 +1,9 @@
+/*
+getAddressableLights()
+setLightProps()
+randomColor()
+*/
+
 const fetch = require('node-fetch');
 
 const {
@@ -19,7 +25,6 @@ const getAddressableLights = async () => {
 }
 
 const setLightProps = (lightID, props) => {
-
   fetch(
     `http://${BRIDGE_IP}/api/${BRIDGE_USERNAME}/lights/${lightID}/state`,
     {
